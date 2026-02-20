@@ -12,19 +12,29 @@ This lab reflects how a small-to-mid-size enterprise campus network would be str
 
 # Network Architecture
 
-Core Layer
+# Infrastructure Components
 
-Cisco 3560 Layer 3 Switch
+- 1 × Cisco 3560 Layer 3 Core Switch (Inter-VLAN Routing)
+- 3 × Cisco 2960 Access Switches
+- 1 × Cisco 2811 Voice Router
+- 1 × Core Router
+- 1 × Redundant Router
+- 1 × ISP Router (Simulated Internet Edge)
 
-Inter-VLAN routing implemented using SVIs
+# Server Infrastructure (VLAN 50)
 
-Access Layer
+- DNS Server
+- NTP Server
+- Call Manager Server
+- File Server
 
-Multiple Cisco 2960 switches
+# Endpoints
 
-Access ports for endpoints
-
-Trunk links to core switch
+- Departmental PCs across IT, HR, Sales, Management, Support
+- Network printers within department VLANs
+- Cisco IP Phones (Voice VLAN 100)
+- Guest WiFi Access Point
+- Guest PCs (VLAN 60)
 
 
 # VLAN Structure
