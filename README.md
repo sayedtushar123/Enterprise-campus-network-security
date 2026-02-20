@@ -1,6 +1,3 @@
-## Network Topology
-
-![Network Diagram](Cisco.png)
 
 # Enterprise Campus Network Security Architecture (Cisco)
 
