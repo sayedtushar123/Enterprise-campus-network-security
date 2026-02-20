@@ -1,3 +1,7 @@
+## Network Topology
+
+![Network Diagram](Screenshot 2026-02-19 235054.png)
+
 # Enterprise Campus Network Security Architecture (Cisco)
 
 # Overview
